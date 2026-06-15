@@ -7,6 +7,11 @@ import signalProcessing.math.FFT;
 import signalProcessing.signal.NoiseGenerator;
 import signalProcessing.signal.SignalGenerator;
 
+/*
+ * [Main] - An example connecting all of the classes together. Creating a 
+ * 			signal, we add noise and run it through the FFT to see if we can
+ * 			recover 50hz.
+ */
 public class Main 
 {
 	public static void main(String[] args) 
